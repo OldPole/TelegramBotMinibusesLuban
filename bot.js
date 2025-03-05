@@ -2,7 +2,7 @@ const { Bot, GrammyError, HttpError, InlineKeyboard } = require('grammy');
 const { startChecking } = require('./monitoring.js');
 const { getCurrentDates } = require('./dateManager.js');
 
-const bot = new Bot('7979289100:AAFasw8-ijCBoveKHIXY9IeUx1v-jckgMVE');
+const bot = new Bot('MY_BOT_API');
 let route = 'Минск-Любань';
 let date = getCurrentDates()[0];
 const dates = getCurrentDates();
